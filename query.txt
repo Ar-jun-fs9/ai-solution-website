@@ -1,0 +1,769 @@
+INSERT INTO services (
+    title, description, long_description, icon, features, benefits, image, updated_at
+) VALUES (
+    'Custom Software Development',
+    'Tailored software solutions designed specifically for your business needs and workflows.',
+    'Our custom software development services create bespoke solutions that perfectly align with your business processes. We work closely with you to understand your requirements and deliver scalable, maintainable software that drives efficiency and growth.',
+    'fa-code',
+    ARRAY[
+        'Requirements analysis and planning',
+        'Custom application development',
+        'Database design and optimization',
+        'API development and integration',
+        'Testing and quality assurance',
+        'Deployment and maintenance'
+    ],
+    ARRAY[
+        'Increased operational efficiency',
+        'Scalable solutions that grow with your business',
+        'Competitive advantage through unique features',
+        'Reduced operational costs',
+        'Improved customer experience'
+    ],
+    '/src/image/service1.jpg',
+    NULL
+);
+
+INSERT INTO services (
+    title, description, long_description, icon, features, benefits, image, updated_at
+) VALUES (
+    'System Integration',
+    'Seamlessly connect your existing systems and applications for improved data flow and efficiency.',
+    'We specialize in integrating disparate systems and applications to create a unified, efficient ecosystem. Our integration solutions ensure seamless data flow between different platforms, reducing manual work and improving overall system performance.',
+    'fa-link',
+    ARRAY[
+        'Legacy system integration',
+        'API development and management',
+        'Data synchronization',
+        'Workflow automation',
+        'Real-time data processing',
+        'System monitoring and alerts'
+    ],
+    ARRAY[
+        'Eliminated data silos',
+        'Automated workflows',
+        'Real-time information access',
+        'Reduced manual data entry',
+        'Improved decision-making capabilities'
+    ],
+    '/src/image/service2.jpg',
+    NULL
+);
+
+INSERT INTO services (
+    title, description, long_description, icon, features, benefits, image, updated_at
+) VALUES (
+    'Cloud Solutions',
+    'Modernize your infrastructure with scalable cloud solutions that enhance performance and reduce costs.',
+    'Transform your business with our comprehensive cloud solutions. We help you migrate to the cloud, optimize existing cloud infrastructure, and implement cloud-native applications that provide flexibility, scalability, and cost savings.',
+    'fa-cloud',
+    ARRAY[
+        'Cloud migration planning',
+        'Infrastructure as a Service (IaaS)',
+        'Platform as a Service (PaaS)',
+        'Software as a Service (SaaS)',
+        'Cloud security and compliance',
+        'Performance optimization'
+    ],
+    ARRAY[
+        'Reduced infrastructure costs',
+        'Improved scalability and flexibility',
+        'Enhanced disaster recovery',
+        'Better collaboration and accessibility',
+        'Automatic updates and maintenance'
+    ],
+    '/src/image/service3.jpg',
+    NULL
+);
+
+INSERT INTO services (
+    title, description, long_description, icon, features, benefits, image, updated_at
+) VALUES (
+    'AI & Machine Learning',
+    'Leverage artificial intelligence and machine learning to gain insights and automate complex processes.',
+    'Stay ahead of the competition with our AI and machine learning solutions. We develop intelligent systems that can analyze data, predict trends, automate decision-making, and provide valuable insights to drive business growth.',
+    'fa-brain',
+    ARRAY[
+        'Predictive analytics',
+        'Natural language processing',
+        'Computer vision solutions',
+        'Recommendation systems',
+        'Process automation',
+        'Data mining and analysis'
+    ],
+    ARRAY[
+        'Data-driven decision making',
+        'Automated complex processes',
+        'Improved customer insights',
+        'Enhanced operational efficiency',
+        'Competitive market advantage'
+    ],
+    '/src/image/service4.jpg',
+    NULL
+);
+
+INSERT INTO services (
+    title, description, long_description, icon, features, benefits, image, updated_at
+) VALUES (
+    'IT Consulting',
+    'Strategic technology consulting to help you make informed decisions and optimize your IT investments.',
+    'Our experienced consultants provide strategic guidance to help you navigate complex technology decisions. We assess your current IT infrastructure, identify opportunities for improvement, and develop roadmaps for digital transformation.',
+    'fa-lightbulb',
+    ARRAY[
+        'Technology assessment',
+        'Digital transformation strategy',
+        'IT infrastructure planning',
+        'Security and compliance review',
+        'Technology vendor selection',
+        'Project management guidance'
+    ],
+    ARRAY[
+        'Optimized technology investments',
+        'Reduced implementation risks',
+        'Improved operational efficiency',
+        'Enhanced security posture',
+        'Strategic technology roadmap'
+    ],
+    '/src/image/service5.jpg',
+    NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO case_studies (
+    title, client, industry, challenge, solution, results, technologies, duration, team_size, image,
+    testimonial_author, testimonial_position, testimonial_company, testimonial_text, updated_at
+) VALUES (
+    'Digital Transformation for Manufacturing Corp',
+    'Manufacturing Corp',
+    'Manufacturing',
+    'A traditional manufacturing company was struggling with outdated systems that caused delays, errors, and inefficiencies in their production processes. They needed a complete digital transformation to modernize their operations.',
+    'We developed a comprehensive digital transformation solution including an integrated ERP system, real-time production monitoring, automated quality control, and predictive maintenance systems. The solution integrated with existing machinery and provided real-time insights.',
+    ARRAY[
+        'Increased operational efficiency by 35%',
+        'Reduced production errors by 60%',
+        'Improved delivery times by 25%',
+        'Annual cost savings of $2.5M',
+        'Enhanced quality control with 99.8% accuracy'
+    ],
+    ARRAY['Custom ERP'],
+    '12 months',
+    '15 developers',
+    '/src/image/event1.jpg',
+    'Sarah Johnson',
+    'CTO',
+    'Manufacturing Corp',
+    'The digital transformation project exceeded our expectations. We have seen remarkable improvements in efficiency and cost savings.',
+    NULL
+);
+
+INSERT INTO case_studies (
+    title, client, industry, challenge, solution, results, technologies, duration, team_size, image,
+    testimonial_author, testimonial_position, testimonial_company, testimonial_text, updated_at
+) VALUES (
+    'AI-Powered Customer Service Platform',
+    'TechStart Inc.',
+    'Technology',
+    'A growing tech startup needed to scale their customer service operations while maintaining high-quality support. They were receiving thousands of support tickets daily and needed an intelligent solution to handle the volume.',
+    'We built an AI-powered customer service platform that included intelligent ticket routing, automated responses for common issues, sentiment analysis, and a knowledge base system. The platform integrated with their existing CRM and support tools.',
+    ARRAY[
+        'Reduced response time by 80%',
+        'Automated resolution of 70% of common issues',
+        'Improved customer satisfaction scores by 45%',
+        'Reduced support staff workload by 60%',
+        'Scaled to handle 10x more tickets'
+    ],
+    ARRAY['Natural Language Processing'],
+    '8 months',
+    '12 developers',
+    '/src/image/event2.jpg',
+    'Michael Chen',
+    'Head of Operations',
+    'TechStart Inc.',
+    'The AI platform transformed our customer service operations. We can now handle massive growth without compromising on quality.',
+    NULL
+);
+
+INSERT INTO case_studies (
+    title, client, industry, challenge, solution, results, technologies, duration, team_size, image,
+    testimonial_author, testimonial_position, testimonial_company, testimonial_text, updated_at
+) VALUES (
+    'Healthcare Data Management System',
+    'City General Hospital',
+    'Healthcare',
+    'A large hospital system was struggling with fragmented patient data across multiple systems, leading to inefficiencies, potential errors, and compliance issues. They needed a unified, secure, and compliant data management solution.',
+    'We developed a comprehensive healthcare data management system that integrated all patient information, implemented strict security protocols, ensured HIPAA compliance, and provided real-time access for healthcare providers.',
+    ARRAY[
+        'Unified patient data across all departments',
+        'Improved patient care coordination by 40%',
+        'Reduced administrative overhead by 30%',
+        'Enhanced security and compliance',
+        'Faster diagnosis and treatment decisions'
+    ],
+    ARRAY['HIPAA-Compliant Database'],
+    '18 months',
+    '20 developers',
+    '/src/image/event3.jpg',
+    'Dr. Emily Rodriguez',
+    'Chief Medical Officer',
+    'City General Hospital',
+    'This system has revolutionized how we manage patient care. The unified data access has improved outcomes significantly.',
+    NULL
+);
+
+INSERT INTO case_studies (
+    title, client, industry, challenge, solution, results, technologies, duration, team_size, image,
+    testimonial_author, testimonial_position, testimonial_company, testimonial_text, updated_at
+) VALUES (
+    'E-commerce Platform Modernization',
+    'Retail Solutions Ltd.',
+    'Retail',
+    'An established retail company had an outdated e-commerce platform that couldnot handle modern customer expectations, mobile traffic, or integrate with new payment systems. They needed a complete platform overhaul.',
+    'We built a modern, mobile-first e-commerce platform with advanced features including AI-powered product recommendations, seamless payment integration, inventory management, and analytics dashboard.',
+    ARRAY[
+        'Increased online sales by 150%',
+        'Improved mobile conversion rates by 80%',
+        'Enhanced customer experience scores',
+        'Reduced cart abandonment by 45%',
+        'Streamlined inventory management'
+    ],
+    ARRAY['React Frontend'],
+    '10 months',
+    '18 developers',
+    '/src/image/event4.jpg',
+    'David Thompson',
+    'E-commerce Director',
+    'Retail Solutions Ltd.',
+    'The new platform has transformed our online business. Sales have skyrocketed and customer satisfaction is at an all-time high.',
+    NULL
+);
+
+INSERT INTO case_studies (
+    title, client, industry, challenge, solution, results, technologies, duration, team_size, image,
+    testimonial_author, testimonial_position, testimonial_company, testimonial_text, updated_at
+) VALUES (
+    'Financial Services Automation',
+    'Global Finance Bank',
+    'Financial Services',
+    'A major bank needed to automate complex financial processes, reduce manual errors, and improve compliance while maintaining security standards. They required a robust, scalable solution for their global operations.',
+    'We developed a comprehensive financial automation platform that included automated trading systems, risk management tools, compliance monitoring, and real-time reporting capabilities.',
+    ARRAY[
+        'Automated 85% of manual processes',
+        'Reduced operational errors by 90%',
+        'Improved compliance monitoring',
+        'Enhanced risk management capabilities',
+        'Increased processing speed by 300%'
+    ],
+    ARRAY['Blockchain'],
+    '24 months',
+    '25 developers',
+    '/src/image/event5.jpg',
+    'Jennifer Williams',
+    'Chief Technology Officer',
+    'Global Finance Bank',
+    'The automation platform has revolutionized our operations. We have achieved unprecedented efficiency and accuracy.',
+    NULL
+);
+
+
+
+
+INSERT INTO testimonials (
+    name, position, company, company_logo, rating, text, image, project, industry, updated_at
+) VALUES (
+    'Sarah Johnson',
+    'Chief Technology Officer',
+    'Manufacturing Corp',
+    '/src/image/testimonial1.jpg',
+    5,
+    'AI Solution transformed our entire manufacturing process. Their digital transformation solution increased our operational efficiency by 35% and saved us millions annually. The team was professional, responsive, and delivered beyond our expectations.',
+    '/src/image/testimonial1.jpg',
+    'Digital Transformation',
+    'Manufacturing',
+    NULL
+);
+
+INSERT INTO testimonials (
+    name, position, company, company_logo, rating, text, image, project, industry, updated_at
+) VALUES (
+    'Michael Chen',
+    'Head of Operations',
+    'TechStart Inc.',
+    '/src/image/testimonial1.jpg',
+    5,
+    'The AI-powered customer service platform they built for us is incredible. We have reduced response times by 80% and automated 70% of common issues. Our customer satisfaction scores have never been higher, and we can now handle massive growth without compromising quality.',
+    '/src/image/testimonial2.jpg',
+    'AI Customer Service Platform',
+    'Technology',
+    NULL
+);
+
+INSERT INTO testimonials (
+    name, position, company, company_logo, rating, text, image, project, industry, updated_at
+) VALUES (
+    'Dr. Emily Rodriguez',
+    'Chief Medical Officer',
+    'City General Hospital',
+    '/src/image/testimonial3.jpg',
+    4,
+    'The healthcare data management system has revolutionized how we manage patient care. Having unified patient data across all departments has improved care coordination by 40% and reduced administrative overhead significantly. The security and compliance features are outstanding.',
+    '/src/image/testimonial3.jpg',
+    'Healthcare Data Management',
+    'Healthcare',
+    NULL
+);
+
+INSERT INTO testimonials (
+    name, position, company, company_logo, rating, text, image, project, industry, updated_at
+) VALUES (
+    'David Thompson',
+    'E-commerce Director',
+    'Retail Solutions Ltd.',
+    '/src/image/testimonial4.jpg',
+    5,
+    'Our new e-commerce platform has transformed our online business. Sales have increased by 150%, mobile conversion rates are up 80%, and customer satisfaction is at an all-time high. The AI-powered recommendations and seamless payment integration are game-changers.',
+    '/src/image/testimonial4.jpg',
+    'E-commerce Platform',
+    'Retail',
+    NULL
+);
+
+INSERT INTO testimonials (
+    name, position, company, company_logo, rating, text, image, project, industry, updated_at
+) VALUES (
+    'Jennifer Williams',
+    'Chief Technology Officer',
+    'Global Finance Bank',
+    '/src/image/testimonial5.jpg',
+    5,
+    'The financial automation platform has revolutionized our operations. We have automated 85% of manual processes, reduced operational errors by 90%, and increased processing speed by 300%. The security and compliance features are exactly what we needed for our global operations.',
+    '/src/image/testimonial5.jpg',
+    'Financial Automation',
+    'Financial Services',
+    NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO blog_posts (
+    title, excerpt, content, author_name, publish_date, read_time, category, tags, image, updated_at
+) VALUES (
+    'The Future of AI in Enterprise Software Development',
+    'Discover how artificial intelligence is revolutionizing enterprise software development and what it means for businesses in 2024 and beyond.',
+    'Artificial Intelligence has become a cornerstone of modern enterprise software development, transforming how businesses approach problem-solving and innovation. As we move through 2024, the integration of AI in enterprise solutions is not just a trend—its a fundamental shift in how software is designed, developed, and deployed. ...',
+    'Dr. Sarah Chen',
+    '2024-03-15',
+    '8 min read',
+    'AI & Machine Learning',
+    ARRAY['AI', 'Enterprise Software', 'Machine Learning', 'Innovation'],
+    '/src/image/blog1.jpg',
+    NULL
+);
+
+INSERT INTO blog_posts (
+    title, excerpt, content, author_name, publish_date, read_time, category, tags, image, updated_at
+) VALUES (
+    'Cloud Migration Strategies for Enterprise Businesses',
+    'Learn the best practices and strategies for successfully migrating your enterprise infrastructure to the cloud while minimizing risks and maximizing benefits.',
+    'Cloud migration has become a strategic imperative for enterprise businesses looking to modernize their infrastructure, reduce costs, and improve scalability. However, the journey to the cloud requires careful planning, execution, and ongoing management to ensure success. ...',
+    'Michael Rodriguez',
+    '2024-03-10',
+    '6 min read',
+    'Cloud Solutions',
+    ARRAY['Cloud Migration', 'Enterprise', 'Infrastructure', 'Digital Transformation'],
+    '/src/image/blog2.jpg',
+    NULL
+);
+
+INSERT INTO blog_posts (
+    title, excerpt, content, author_name, publish_date, read_time, category, tags, image, updated_at
+) VALUES (
+    'Cybersecurity Best Practices for Modern Businesses',
+    'Essential cybersecurity practices that every business should implement to protect against evolving threats and ensure data security.',
+    'In today`s interconnected digital landscape, cybersecurity has become a critical concern for businesses of all sizes. With cyber threats becoming more sophisticated and frequent, implementing robust security measures is no longer optional—it\`s essential for business survival. ...',
+    'Lisa Thompson',
+    '2024-03-05',
+    '7 min read',
+    'Cybersecurity',
+    ARRAY['Cybersecurity', 'Data Protection', 'Risk Management', 'Compliance'],
+    '/src/image/blog3.jpg',
+    NULL
+);
+
+INSERT INTO blog_posts (
+    title, excerpt, content, author_name, publish_date, read_time, category, tags, image, updated_at
+) VALUES (
+    'Digital Transformation Success Stories from Industry Leaders',
+    'Explore real-world examples of successful digital transformation initiatives and learn the key factors that contributed to their success.',
+    'Digital transformation has become a buzzword in the business world, but what does it really mean, and how do companies successfully implement it? It involves using digital technologies to fundamentally change how businesses operate and deliver value to customers. ...',
+    'David Kim',
+    '2024-02-28',
+    '9 min read',
+    'Digital Transformation',
+    ARRAY['Digital Transformation', 'Innovation', 'Case Studies', 'Business Strategy'],
+    '/src/image/blog4.jpg',
+    NULL
+);
+
+INSERT INTO blog_posts (
+    title, excerpt, content, author_name, publish_date, read_time, category, tags, image, updated_at
+) VALUES (
+    'The Rise of Edge Computing in Enterprise Applications',
+    'Discover how edge computing is revolutionizing enterprise applications and enabling new possibilities for real-time processing and IoT integration.',
+    'Edge computing is emerging as a game-changing technology for enterprise applications, enabling real-time processing, reduced latency, and new possibilities for IoT integration. As businesses generate increasing volumes of data and demand faster response times, edge computing offers an effective solution. ...',
+    'Alexandra Wong',
+    '2024-02-20',
+    '6 min read',
+    'Emerging Technologies',
+    ARRAY['Edge Computing', 'IoT', 'Real-time Processing', 'Enterprise Applications'],
+    '/src/image/blog5.jpg',
+    NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO events (
+    title, date, time, location, type, description, long_description,
+    speakers, agenda, registration_link, is_free, price, early_bird_price,
+    early_bird_deadline, max_attendees, current_attendees, attendees,
+    image, category, tags, updated_at
+) VALUES (
+    'AI & Machine Learning Summit 2024',
+    '2024-04-15',
+    '09:00 AM - 05:00 PM',
+    'Tech Conference Center, San Francisco',
+    'past',
+    'Join industry leaders and experts for a comprehensive exploration of AI and machine learning in enterprise applications. Learn about the latest trends, technologies, and implementation strategies.',
+    'This full-day conference brings together thought leaders, practitioners, and innovators in the field of artificial intelligence and machine learning. Attendees will gain insights into cutting-edge AI technologies, practical implementation strategies, and real-world case studies from leading companies.',
+    ARRAY['Dr. Sarah Chen - AI Research Director', 'Michael Rodriguez - Cloud Solutions Architect', 'Lisa Thompson - Cybersecurity Specialist'],
+    ARRAY['09:00 AM - Keynote: The Future of AI in Enterprise', '10:30 AM - Panel: AI Implementation Strategies', '12:00 PM - Networking Lunch', '01:30 PM - Technical Sessions', '03:30 PM - Case Study Presentations', '05:00 PM - Closing Remarks & Networking'],
+    'https://ai.com/ai-summit-2024',
+    false,
+    '$299',
+    '$249',
+    '2024-03-31',
+    500,
+    342,
+    342,
+    '/src/image/event1.jpg',
+    'Technology',
+    ARRAY['AI'],
+    NULL
+);
+
+INSERT INTO events (
+    title, date, time, location, type, description, long_description,
+    speakers, agenda, registration_link, is_free, price, early_bird_price,
+    early_bird_deadline, max_attendees, current_attendees, attendees,
+    image, category, tags, updated_at
+) VALUES (
+    'Cloud Migration Workshop',
+    '2024-04-22',
+    '10:00 AM - 04:00 PM',
+    'Virtual Event (Online)',
+    'past',
+    'Hands-on workshop covering cloud migration strategies, best practices, and implementation techniques for enterprise businesses.',
+    'This interactive workshop provides practical guidance on planning and executing successful cloud migration projects. Participants will learn about different migration strategies, risk mitigation techniques, and tools for ensuring smooth transitions to cloud infrastructure.',
+    ARRAY['Michael Rodriguez - Cloud Solutions Architect', 'David Kim - Digital Transformation Consultant'],
+    ARRAY['10:00 AM - Introduction to Cloud Migration', '11:00 AM - Migration Strategy Planning', '12:00 PM - Lunch Break', '01:00 PM - Hands-on Migration Planning', '02:30 PM - Risk Mitigation Strategies', '03:30 PM - Q&A and Discussion'],
+    'https://cloud.com/cloud-workshop-2024',
+    true,
+    'Free',
+    NULL,
+    NULL,
+    100,
+    78,
+    78,
+    '/src/image/event2.jpg',
+    'Cloud Solutions',
+    ARRAY['Cloud Migration'],
+    NULL
+);
+
+INSERT INTO events (
+    title, date, time, location, type, description, long_description,
+    speakers, agenda, registration_link, is_free, price, early_bird_price,
+    early_bird_deadline, max_attendees, current_attendees, attendees,
+    image, category, tags, updated_at
+) VALUES (
+    'Cybersecurity Best Practices Seminar',
+    '2024-05-08',
+    '02:00 PM - 06:00 PM',
+    'Business Center, New York',
+    'past',
+    'Essential cybersecurity practices and strategies for protecting your business against evolving threats.',
+    'This seminar covers critical cybersecurity topics including threat prevention, incident response, compliance requirements, and emerging security technologies. Learn from cybersecurity experts about protecting your organization\`s digital assets.',
+    ARRAY['Lisa Thompson - Cybersecurity Specialist', 'Alexandra Wong - Edge Computing Specialist'],
+    ARRAY['02:00 PM - Current Threat Landscape', '03:00 PM - Security Best Practices', '04:00 PM - Incident Response Planning', '05:00 PM - Emerging Security Technologies', '06:00 PM - Networking & Q&A'],
+    'https://cybersecurity.com/cybersecurity-seminar-2024',
+    false,
+    '$149',
+    '$99',
+    '2024-04-24',
+    200,
+    156,
+    156,
+    '/src/image/event3.jpg',
+    'Cybersecurity',
+    ARRAY['Cybersecurity'],
+    NULL
+);
+
+INSERT INTO events (
+    title, date, time, location, type, description, long_description,
+    speakers, agenda, registration_link, is_free, price, early_bird_price,
+    early_bird_deadline, max_attendees, current_attendees, attendees,
+    image, category, tags, updated_at
+) VALUES (
+    'Digital Transformation Roundtable',
+    '2024-05-15',
+    '11:00 AM - 02:00 PM',
+    'Innovation Hub, Austin',
+    'past',
+    'Interactive discussion with industry leaders about digital transformation strategies and success stories.',
+    'Join this intimate roundtable discussion with digital transformation experts and industry leaders. Share experiences, discuss challenges, and learn from successful transformation initiatives across different industries.',
+    ARRAY['David Kim - Digital Transformation Consultant', 'James Wilson - CEO, Innovation Labs'],
+    ARRAY['11:00 AM - Welcome & Introductions', '11:30 AM - Transformation Success Stories', '12:00 PM - Interactive Discussion', '12:30 PM - Networking Lunch', '01:30 PM - Q&A Session', '02:00 PM - Closing Remarks'],
+    'https://digital.com/digital-transformation-roundtable-2024',
+    false,
+    '$199',
+    '$149',
+    '2024-05-01',
+    50,
+    42,
+    42,
+    '/src/image/event4.jpg',
+    'Digital Transformation',
+    ARRAY['Digital Transformation'],
+    NULL
+);
+
+INSERT INTO events (
+    title, date, time, location, type, description, long_description,
+    speakers, agenda, registration_link, is_free, price, early_bird_price,
+    early_bird_deadline, max_attendees, current_attendees, attendees,
+    image, category, tags, updated_at
+) VALUES (
+    'AI in Healthcare Summit',
+    '2024-06-20',
+    '09:00 AM - 04:00 PM',
+    'MedTech Conference Center, Boston',
+    'past',
+    'Explore how artificial intelligence is transforming the future of healthcare.',
+    'This full-day summit brings together healthcare professionals, AI researchers, and technology innovators to discuss how artificial intelligence is being used to revolutionize patient care, diagnostics, and healthcare operations. Attendees will gain insights into real-world applications, regulatory considerations, and the future landscape of AI in the medical field.',
+    ARRAY['Dr. Lisa Monroe - Chief Medical Officer, HealthAI', 'Dr. Raj Patel - Professor of Biomedical Engineering, MIT', 'Elena Torres - VP of AI Strategy, MedSys'],
+    ARRAY['09:00 AM - Opening Remarks', '09:30 AM - Keynote: The Role of AI in Modern Medicine', '10:30 AM - Panel: Ethics & Regulations in AI-Driven Healthcare', '12:00 PM - Networking Lunch', '01:00 PM - Breakout Sessions', '02:30 PM - Case Study Presentations', '03:30 PM - Closing Panel & Q&A', '04:00 PM - Event Close'],
+    'https://healthai.org/ai-healthcare-summit-2024',
+    false,
+    '$299',
+    '$249',
+    '2024-05-31',
+    200,
+    174,
+    174,
+    '/src/image/event5.jpg',
+    'Healthcare Technology',
+    ARRAY['Healthcare'],
+    NULL
+);
+
+
+
+
+
+
+
+INSERT INTO gallery_items (
+    title, description, category, image, thumbnail, tags, created_at, updated_at
+) VALUES (
+    'Tech Innovation Conference 2024',
+    'Our flagship technology conference showcasing the latest innovations in software development and system integration.',
+    'Events',
+    '/src/image/gallery1.jpg',
+    '/src/image/gallery1.jpg',
+    ARRAY['Innovation'],
+    '2024-02-15',
+    NULL
+);
+
+INSERT INTO gallery_items (
+    title, description, category, image, thumbnail, tags, created_at, updated_at
+) VALUES (
+    'Team Collaboration Session',
+    'Our development team working together on a complex system integration project.',
+    'Team',
+    '/src/image/gallery2.jpg',
+    '/src/image/gallery2.jpg',
+    ARRAY['Collaboration'],
+    '2024-03-01',
+    NULL
+);
+
+INSERT INTO gallery_items (
+    title, description, category, image, thumbnail, tags, created_at, updated_at
+) VALUES (
+    'AI & Machine Learning Workshop',
+    'Interactive workshop on implementing AI and machine learning solutions in enterprise applications.',
+    'Workshops',
+    '/src/image/gallery3.jpg',
+    '/src/image/gallery3.jpg',
+    ARRAY['AI'],
+    '2024-02-28',
+    NULL
+);
+
+INSERT INTO gallery_items (
+    title, description, category, image, thumbnail, tags, created_at, updated_at
+) VALUES (
+    'Client Presentation',
+    'Presenting our digital transformation solution to a major manufacturing client.',
+    'Client Meetings',
+    '/src/image/gallery4.jpg',
+    '/src/image/gallery4.jpg',
+    ARRAY['Digital Transformation'],
+    '2024-03-10',
+    NULL
+);
+
+INSERT INTO gallery_items (
+    title, description, category, image, thumbnail, tags, created_at, updated_at
+) VALUES (
+    'Cloud Migration Project',
+    'Successfully completing a major cloud migration project for a financial services client.',
+    'Projects',
+    '/src/image/gallery5.jpg',
+    '/src/image/gallery5.jpg',
+    ARRAY['Cloud'],
+    '2024-02-20',
+    NULL
+);
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO inquiries (
+    name, email, phone, company, country, job_title, job_details, status, priority, inquiry_at, updated_at
+) VALUES (
+    'John Smith',
+    'john.smith@techcorp.com',
+    '+1-555-0123',
+    'TechCorp Solutions',
+    'United States',
+    'CTO',
+    'We need a comprehensive software solution for our enterprise resource planning system. The solution should integrate with our existing CRM and handle inventory management, HR processes, and financial reporting.',
+    'new',
+    'high',
+    '2024-01-15',
+    NULL
+);
+
+INSERT INTO inquiries (
+    name, email, phone, company, country, job_title, job_details, status, priority, inquiry_at, updated_at
+) VALUES (
+    'Sarah Johnson',
+    'sarah.j@innovateinc.com',
+    '+1-555-0456',
+    'Innovate Inc',
+    'Canada',
+    'Product Manager',
+    'Looking for a custom mobile app development solution for our retail platform. Need iOS and Android versions with real-time inventory sync and payment processing integration.',
+    'in-progress',
+    'medium',
+    '2024-01-14',
+    NULL
+);
+
+INSERT INTO inquiries (
+    name, email, phone, company, country, job_title, job_details, status, priority, inquiry_at, updated_at
+) VALUES (
+    'Michael Chen',
+    'mchen@globaltech.com',
+    '+1-555-0789',
+    'GlobalTech Systems',
+    'Singapore',
+    'IT Director',
+    'Require a cloud migration solution for our legacy systems. Need assistance with data migration, security implementation, and staff training for the new cloud infrastructure.',
+    'completed',
+    'high',
+    '2024-01-10',
+    NULL
+);
+
+INSERT INTO inquiries (
+    name, email, phone, company, country, job_title, job_details, status, priority, inquiry_at, updated_at
+) VALUES (
+    'Emily Rodriguez',
+    'emily.r@startupxyz.com',
+    '+1-555-0321',
+    'StartupXYZ',
+    'Mexico',
+    'Founder',
+    'Need a complete website redesign and e-commerce solution for our startup. Looking for modern design, mobile responsiveness, and integration with payment gateways.',
+    'new',
+    'medium',
+    '2024-01-12',
+    NULL
+);
+
+INSERT INTO inquiries (
+    name, email, phone, company, country, job_title, job_details, status, priority, inquiry_at, updated_at
+) VALUES (
+    'David Wilson',
+    'dwilson@manufacturing.co.uk',
+    '+44-20-7946-0958',
+    'Manufacturing Co Ltd',
+    'United Kingdom',
+    'Operations Manager',
+    'Seeking an IoT solution for our manufacturing plant to monitor equipment performance, predict maintenance needs, and optimize production efficiency.',
+    'in-progress',
+    'low',
+    '2024-01-08',
+    NULL
+);
+
