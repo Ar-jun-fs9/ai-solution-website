@@ -2,6 +2,14 @@
 
 A comprehensive, modern full-stack website for an AI Solution company built with React, Express, PostgreSQL, and modern web technologies. Features include an AI-powered chatbot, admin dashboard, contact management, and responsive design.
 
+## few Screenshots
+![website homepage](assets/homepage.png)
+![website footer](assets/footer.png)
+![website chatbot](assets/aichatbot.png)
+![website adminlogin](assets/adminlogin.png)
+![website admindashboard](assets/admindashboard.png)
+![website adminresetpassword](assets/forgetpassword.png)
+
 ## 🚀 Features
 
 ### ✨ Key Features
@@ -11,6 +19,7 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 - **🎨 Modern UI/UX**: Clean, professional design with smooth animations
 - **📝 Contact Management**: Comprehensive inquiry form with validation
 - **🔐 Admin Dashboard**: Secure area for managing customer inquiries, content, and analytics
+- **🔒 Password Security**: User passwords hashed using **Argon2id** for maximum security  
 - **📊 Content Management**: Dynamic management of services, blog posts, case studies, and events
 - **🖼️ Media Gallery**: Categorized photo gallery with filtering
 - **📧 Email Integration**: Automated email notifications and password reset
@@ -244,11 +253,7 @@ Before running this project, make sure you have the following installed:
 
 4. **Set up the database:**
 
-   - Create a PostgreSQL database named `Project_Development`
-   - Run the database schema:
-     ```bash
-     psql -U postgres -d Project_Development -f server/db.sql
-     ```
+   - Create a PostgreSQL database named `Project_Development` then open the query editor, copy the contents of query.txt, and execute them.
 
 5. **Configure environment variables:**
    - Copy the `.env` file in the `server` directory
@@ -380,8 +385,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - Responsive design and modern UI/UX
 
 ---
-
-**Built with ❤️ by the AI Solution Team**
 
 ```
 
