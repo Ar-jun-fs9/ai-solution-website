@@ -1,4 +1,5 @@
 # 🤖 AI Solution Website
+<a name="top"></a>
 
 A comprehensive, modern full-stack website for an AI Solution company built with React, Express, PostgreSQL, and modern web technologies. Features include an AI-powered chatbot, admin dashboard, contact management, and responsive design.
 
@@ -14,7 +15,7 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 
 ### ✨ Key Features
 
-- **🤖 AI-Powered Chatbot**: Interactive customer support with OpenAI integration
+- **🤖 AI-Powered Chatbot**: Interactive customer support predefined response
 - **📱 Fully Responsive**: Mobile-first design with Bootstrap 5
 - **🎨 Modern UI/UX**: Clean, professional design with smooth animations
 - **📝 Contact Management**: Comprehensive inquiry form with validation
@@ -78,67 +79,68 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 ## 📁 Project Structure
 
 ```
-/
-├── src/                    # Frontend React application
-│   ├── components/         # Reusable UI components
-│   │   ├── Header.jsx      # Navigation and header
-│   │   ├── Footer.jsx      # Footer with links and info
-│   │   └── Chatbot.jsx     # AI chatbot widget
-│   ├── pages/              # Page components
-│   │   ├── Home.jsx        # Homepage
-│   │   ├── Services.jsx    # Services page
-│   │   ├── CaseStudies.jsx # Case studies
-│   │   ├── Feedback.jsx    # Testimonials
-│   │   ├── Blog.jsx        # Blog articles
-│   │   ├── Gallery.jsx     # Photo gallery
-│   │   ├── Events.jsx      # Events management
-│   │   ├── Contact.jsx     # Contact form
-│   │   ├── AdminLogin.jsx  # Admin authentication
-│   │   ├── AdminDashboard.jsx # Admin dashboard
-│   │   └── NotFound.jsx    # 404 error page
-│   ├── data/               # Static data files
-│   │   ├── services.js     # Services information
-│   │   ├── caseStudies.js  # Case study data
-│   │   ├── testimonials.js # Customer feedback
-│   │   ├── blog.js         # Blog posts
-│   │   ├── events.js       # Events data
-│   │   ├── gallery.js      # Gallery images
-│   │   └── inquiries.js    # Sample inquiry data
-│   ├── contexts/           # React contexts
-│   │   └── AdminContext.jsx # Admin authentication context
-│   ├── utils/              # Utility functions
-│   │   └── securityUtils.js # Security utilities
-│   ├── image/              # Static images
-│   ├── media/              # Media assets (logos, etc.)
-│   ├── App.jsx             # Main app component
-│   ├── main.jsx            # App entry point
-│   ├── App.css             # Custom styles
-│   └── index.css           # Global styles
-├── server/                 # Backend Node.js/Express server
-│   ├── routes/             # API route handlers
-│   │   ├── authRoutes.js   # Authentication routes
-│   │   ├── inquiryRoutes.js # Contact inquiry routes
-│   │   ├── servicesRoutes.js # Services management routes
-│   │   ├── caseStudiesRoutes.js # Case studies routes
-│   │   ├── testimonialsRoutes.js # Testimonials routes
-│   │   ├── blogRoutes.js   # Blog management routes
-│   │   ├── eventsRoutes.js # Events management routes
-│   │   ├── galleryRoutes.js # Gallery management routes
-│   │   ├── uploadRoutes.js # File upload routes
-│   │   └── chatbotRoutes.js # AI chatbot routes
-│   ├── db.js               # Database connection
-│   ├── db.sql              # Database schema
-│   ├── .env                # Environment variables
-│   ├── index.js            # Server entry point
-│   └── package.json        # Server dependencies
-├── public/                 # Static assets
-│   ├── uploads/            # Uploaded files
-│   └── vite.svg            # Vite logo
-├── index.html              # Main HTML file
-├── package.json            # Frontend dependencies
-├── vite.config.js          # Vite configuration
-├── eslint.config.js        # ESLint configuration
-└── README.md               # Project documentation
+ai-solution-website/
+├── 📁 src/                            # Frontend React application
+│   ├── 📁 components/                 # Reusable UI components
+│   │   ├── 📄 Header.jsx              # Navigation and header
+│   │   ├── 📄 Footer.jsx              # Footer with links and info
+│   │   └── 📄 Chatbot.jsx             # AI chatbot widget
+│   ├── 📁 pages/                      # Page components
+│   │   ├── 📄 Home.jsx                # Homepage
+│   │   ├── 📄 Services.jsx            # Services page
+│   │   ├── 📄 CaseStudies.jsx         # Case studies
+│   │   ├── 📄 Feedback.jsx            # Testimonials
+│   │   ├── 📄 Blog.jsx                # Blog articles
+│   │   ├── 📄 Gallery.jsx             # Photo gallery
+│   │   ├── 📄 Events.jsx              # Events management
+│   │   ├── 📄 Contact.jsx             # Contact form
+│   │   ├── 📄 AdminLogin.jsx          # Admin authentication
+│   │   ├── 📄 AdminDashboard.jsx      # Admin dashboard
+│   │   └── 📄 NotFound.jsx            # 404 error page
+│   ├── 📁 data/                       # Static data files
+│   │   ├── 📄 services.js             # Services information
+│   │   ├── 📄 caseStudies.js          # Case study data
+│   │   ├── 📄 testimonials.js         # Customer feedback
+│   │   ├── 📄 blog.js                 # Blog posts
+│   │   ├── 📄 events.js               # Events data
+│   │   ├── 📄 gallery.js              # Gallery images
+│   │   └── 📄 inquiries.js            # Sample inquiry data
+│   ├── 📁 contexts/                   # React contexts
+│   │   └── 📄 AdminContext.jsx        # Admin authentication context
+│   ├── 📁 utils/                      # Utility functions
+│   │   └── 📄 securityUtils.js        # Security utilities
+│   ├── 📁 image/                      # Static images
+│   ├── 📁 media/                      # Media assets (logos, etc.)
+│   ├── 📄 App.jsx                     # Main app component
+│   ├── 📄 main.jsx                    # App entry point
+│   ├── 📄 App.css                     # Custom styles
+│   └── 📄 index.css                   # Global styles
+├── 📁 server/                         # Backend Node.js/Express server
+│   ├── 📁 routes/                     # API route handlers
+│   │   ├── 📄 authRoutes.js           # Authentication routes
+│   │   ├── 📄 inquiryRoutes.js        # Contact inquiry routes
+│   │   ├── 📄 servicesRoutes.js       # Services management routes
+│   │   ├── 📄 caseStudiesRoutes.js    # Case studies routes
+│   │   ├── 📄 testimonialsRoutes.js   # Testimonials routes
+│   │   ├── 📄 blogRoutes.js           # Blog management routes
+│   │   ├── 📄 eventsRoutes.js         # Events management routes
+│   │   ├── 📄 galleryRoutes.js        # Gallery management routes
+│   │   ├── 📄 uploadRoutes.js         # File upload routes
+│   │   └── 📄 chatbotRoutes.js        # AI chatbot routes
+│   ├── 📄 db.js                       # Database connection
+│   ├── 📄 db.sql                      # Database schema
+│   ├── 📄 .env                        # Environment variables
+│   ├── 📄 index.js                    # Server entry point
+│   └── 📄 package.json                # Server dependencies
+├── 📁 public/                         # Static assets
+│   ├── 📁 uploads/                    # Uploaded files
+│   └── 📄 vite.svg                    # Vite logo
+├── 📄 index.html                      # Main HTML file
+├── 📄 package.json                    # Frontend dependencies
+├── 📄 vite.config.js                  # Vite configuration
+├── 📄 eslint.config.js                # ESLint configuration
+└── 📄 README.md                       # Project documentation
+
 ```
 
 ## 📱 Website Features
@@ -385,7 +387,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   - Responsive design and modern UI/UX
 
 ---
-
-```
-
-```
+<div align="center">
+   
+  **[⬆ Back to Top](#top)**
+  
+</div>
