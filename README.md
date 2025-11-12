@@ -47,7 +47,6 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 - **✅ Form Validation**: Comprehensive client-side validation
 - **🔐 Authentication**: JWT-based admin authentication with Argon2 hashing
 - **📤 File Upload**: Multer integration for image and document uploads
-- **🤖 AI Integration**: OpenAI API for intelligent chatbot responses
 - **📧 Email Service**: Nodemailer for notifications and password reset
 - **🗄️ Database**: PostgreSQL with optimized queries and indexing
 - **🔍 Advanced Filtering**: Search and filter across all data types
