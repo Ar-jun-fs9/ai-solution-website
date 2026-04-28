@@ -1,7 +1,12 @@
+<div align = "center">
+
 # 🤖 AI Solution Website
 <a name="top"></a>
 
 A comprehensive, modern full-stack website for an AI Solution company built with React, Express, PostgreSQL, and modern web technologies. Features include an AI-powered chatbot, admin dashboard, contact management, and responsive design.
+
+
+</div>
 
 ## few Screenshots
 ![website homepage](assets/homepage.png)
