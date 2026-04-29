@@ -1,6 +1,6 @@
 <div align = "center">
 
-# 🤖 AI Solution Website
+# AI Solution Website
 <a name="top"></a>
 
 A comprehensive, modern full-stack website for an AI Solution company built with React, Express, PostgreSQL, and modern web technologies. Features include an AI-powered chatbot, admin dashboard, contact management, and responsive design.
@@ -16,21 +16,21 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 ![website admindashboard](assets/admindashboard.png)
 ![website adminresetpassword](assets/forgetpassword.png)
 
-## 🚀 Features
+##  Features
 
-### ✨ Key Features
+###  Key Features
 
-- **🤖 AI-Powered Chatbot**: Interactive customer support predefined response
-- **📱 Fully Responsive**: Mobile-first design with Bootstrap 5
-- **🎨 Modern UI/UX**: Clean, professional design with smooth animations
-- **📝 Contact Management**: Comprehensive inquiry form with validation
-- **🔐 Admin Dashboard**: Secure area for managing customer inquiries, content, and analytics
-- **🔒 Password Security**: User passwords hashed using **Argon2id** for maximum security  
-- **📊 Content Management**: Dynamic management of services, blog posts, case studies, and events
-- **🖼️ Media Gallery**: Categorized photo gallery with filtering
-- **📧 Email Integration**: Automated email notifications and password reset
-- **🔍 Advanced Search**: Search and filtering across all content types
-- **📈 Analytics**: Built-in statistics and reporting for admin users
+- **AI-Powered Chatbot**: Interactive customer support predefined response
+- **Fully Responsive**: Mobile-first design with Bootstrap 5
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Contact Management**: Comprehensive inquiry form with validation
+- **Admin Dashboard**: Secure area for managing customer inquiries, content, and analytics
+- **Password Security**: User passwords hashed using **Argon2id** for maximum security  
+- **Content Management**: Dynamic management of services, blog posts, case studies, and events
+- **Media Gallery**: Categorized photo gallery with filtering
+- **Email Integration**: Automated email notifications and password reset
+- **Advanced Search**: Search and filtering across all content types
+- **Analytics**: Built-in statistics and reporting for admin users
 
 ### Pages & Sections
 
@@ -44,22 +44,22 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 8. **Contact**: Contact form and company information
 9. **Admin**: Login and dashboard for managing inquiries
 
-### 🛠️ Technical Features
+### Technical Features
 
-- **⚛️ React Architecture**: Component-based architecture with hooks
-- **🛣️ Client-side Routing**: React Router DOM for seamless navigation
-- **📊 State Management**: React Context API for global state
-- **✅ Form Validation**: Comprehensive client-side validation
-- **🔐 Authentication**: JWT-based admin authentication with Argon2 hashing
-- **📤 File Upload**: Multer integration for image and document uploads
-- **📧 Email Service**: Nodemailer for notifications and password reset
-- **🗄️ Database**: PostgreSQL with optimized queries and indexing
-- **🔍 Advanced Filtering**: Search and filter across all data types
-- **📊 Data Export**: CSV export functionality for admin reports
-- **🎨 UI Components**: Bootstrap 5 with custom styling and animations
-- **📱 PWA Ready**: Progressive Web App capabilities
+- **React Architecture**: Component-based architecture with hooks
+- **Client-side Routing**: React Router DOM for seamless navigation
+- **State Management**: React Context API for global state
+- **Form Validation**: Comprehensive client-side validation
+- **Authentication**: JWT-based admin authentication with Argon2 hashing
+- **File Upload**: Multer integration for image and document uploads
+- **Email Service**: Nodemailer for notifications and password reset
+- **Database**: PostgreSQL with optimized queries and indexing
+- **Advanced Filtering**: Search and filter across all data types
+- **Data Export**: CSV export functionality for admin reports
+- **UI Components**: Bootstrap 5 with custom styling and animations
+- **PWA Ready**: Progressive Web App capabilities
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -80,7 +80,7 @@ A comprehensive, modern full-stack website for an AI Solution company built with
 - **AI Integration**: OpenAI API
 - **CORS**: Enabled for cross-origin requests
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-solution-website/
@@ -147,7 +147,7 @@ ai-solution-website/
 
 ```
 
-## 📱 Website Features
+## Website Features
 
 ### Homepage
 
@@ -190,7 +190,7 @@ ai-solution-website/
 - **Quick Help**: Common questions and answers
 - **User-Friendly**: Easy to use interface
 
-## 🎨 Design Features
+##  Design Features
 
 ### Visual Elements
 
@@ -214,7 +214,7 @@ ai-solution-website/
 - **Accessibility**: Screen reader friendly
 - **Cross-Browser**: Compatible with modern browsers
 
-## 🔧 Configuration
+##  Configuration
 
 ### Customization
 
@@ -223,7 +223,7 @@ ai-solution-website/
 - **Content**: Edit data files for dynamic content
 - **Images**: Replace placeholder images with real content
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -323,7 +323,7 @@ GPT_API_KEY=your_openai_api_key
 
 3. **Deploy the `dist/` folder and configure your web server for SPA routing**
 
-## 📊 Data Management
+##  Data Management
 
 ### Static Data Files
 
@@ -367,11 +367,11 @@ The backend provides RESTful API endpoints for:
 - **File Upload**: `/api/upload/*`
 - **Chatbot**: `/api/chatbot/*`
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **React**: For the powerful frontend framework
 - **Bootstrap**: For the responsive UI components
@@ -381,7 +381,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **OpenAI**: For the AI chatbot capabilities
 - **Vite**: For the fast build tool and development server
 
-## 🔄 Version History
+##  Version History
 
 - **v1.0.0**: Initial release with full-stack AI Solution website
   - Complete frontend with React and Bootstrap
